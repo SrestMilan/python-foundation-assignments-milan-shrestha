@@ -1,4 +1,4 @@
-Day 1: Python Foundations
+<h1>Day 1: Python Foundations</h1>
 Topics Covered
 Variables
 Data types
