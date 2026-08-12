@@ -63,10 +63,8 @@ I learned how to declare variables and work with different data types such as st
 
 <h2>Challenges Faced</h2>
 <p>
-I faced some challenges while working with user input, logical operators, and
-multiple conditions. I learned how to correctly convert input values to integers,
-use the <code>and</code> operator for multiple conditions, and apply conditional
-statements to determine the correct result.
+
+I faced some challenges while working through these exercises, particularly with converting user input strings into integers for accurate numeric comparisons. I also struggled with applying the logical "and" operator correctly to combine multiple conditions, and with structuring if-elif-else chains in the right order to avoid incorrect classifications. Cleaning inconsistently formatted text before applying string methods was tricky as well, and I found writing ternary expressions and validating file extensions with case-sensitive input took extra care to get right.
 </p>
 
 </body>
