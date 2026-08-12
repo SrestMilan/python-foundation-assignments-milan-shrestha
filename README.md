@@ -5,7 +5,7 @@
 ## Student Information
 
 - Name: Milan Shrestha
-- Cohort: batch-16-1st-month-training
+- Cohort:  Batch 16 Data and AI foundation Course
 - Track Interest: Data Engineering
 
 ## About This Repository
