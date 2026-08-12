@@ -58,9 +58,7 @@
 
 <h2>What I Learned</h2>
 <p>
-I learned how to use variables, data types, operators, user input, string methods,
-and conditional statements in Python. I also practiced using logical conditions,
-calculations, and decision-making to solve practical data-related problems.
+I learned how to declare variables and work with different data types such as strings, integers, and floats. I learned to apply arithmetic operators for calculations and comparison operators to evaluate conditions against thresholds. I learned how logical operators like "and" combine multiple conditions for compound decision-making. I learned several string methods, including strip, lower, title, and endswith, to clean and validate text data. I learned to write conditional statements, including if-elif-else chains, to control program flow, and how a ternary expression offers a compact alternative for simpler decisions. I also learned to handle user input and output, and use membership operators like "in" and "not in" for data validation.
 </p>
 
 <h2>Challenges Faced</h2>
