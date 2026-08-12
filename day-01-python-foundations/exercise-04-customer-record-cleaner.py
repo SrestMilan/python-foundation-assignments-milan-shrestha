@@ -11,17 +11,18 @@ raw_city = "kATHMANDU "
 raw_age = "27"
 raw_email = " SAGAR@MAIL.COM "
 
-# Clean the name: remove extra spaces and convert to Title Case (e.g. "Sagar Thapa")
-name = raw_name.strip().title()
 
-# Clean the city: remove extra spaces and convert to Title Case (e.g. "Kathmandu")
-city = raw_city.strip().title()
+def clean_text(value, mode="title"):
+    """Strip extra spaces and apply the given case format (title or lower)."""
+    value = value.strip()
+    return value.title() if mode == "title" else value.lower()
 
-# Clean the age: remove extra spaces and convert to an integer for comparison
-age = int(raw_age.strip())
 
-# Clean the email: remove extra spaces and convert to lowercase (emails are conventionally lowercase)
-email = raw_email.strip().lower()
+# Clean each field using the helper function
+name = clean_text(raw_name, "title")     # e.g. "Sagar Thapa"
+city = clean_text(raw_city, "title")     # e.g. "Kathmandu"
+email = clean_text(raw_email, "lower")   # emails are conventionally lowercase
+age = int(raw_age.strip())               # convert cleaned age to integer
 
 # Ternary expression: if age is 18 or above, status is "Adult", otherwise "Minor"
 status = "Adult" if age >= 18 else "Minor"
