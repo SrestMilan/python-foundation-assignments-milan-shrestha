@@ -18,8 +18,8 @@
   <li>String methods</li>
   <li>Conditional statements</li>
   <li>Ternary expressions</li>
-  <li>User input and output</li>
-  <li>Basic data validation</li>
+  <li>User input </li>
+  <li>Data validation</li>
 </ul>
 
 <h2>Exercises</h2>
