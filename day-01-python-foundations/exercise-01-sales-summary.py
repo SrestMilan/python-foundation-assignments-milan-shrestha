@@ -1,3 +1,11 @@
+
+"""
+Exercise: Sales Summary
+Student: Milan Shrestha
+Day: 1
+"""
+
+
 # Product details
 product_name = "Wireless Mouse"
 unit_price = 1500

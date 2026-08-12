@@ -1,3 +1,9 @@
+"""
+Exercise: Data Quality Checker
+Student: Milan Shrestha
+Day: 1
+"""
+
 # Dataset details
 total_rows = 2000
 missing_rows = 120
