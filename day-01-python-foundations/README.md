@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Day 1: Python Foundations</title>
+<h1>Day 1: Python Foundations</h1>
+
 </head>
 <body>
 
-<h1>Day 1: Python Foundations</h1>
 
 <h2>Topics Covered</h2>
 <ul>
