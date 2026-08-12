@@ -52,9 +52,13 @@
 
 <h2>How to Run</h2>
 <p>Each exercise is provided as a Python file. Run an exercise using:</p>
-<pre><code>python exercise-01-sales-summary.py</code></pre>
 <p>For example:</p>
+<pre><code>python exercise-01-sales-summary.py</code></pre>
+<pre><code>python exercise-02-data-quality-checker.py</code></pre>
+<pre><code>python exercise-03-file-validator.py</code></pre>
+<pre><code>python exercise-04-customer-record-cleaner.py</code></pre>
 <pre><code>python exercise-05-pipeline-health.py</code></pre>
+<pre><code>python stretch-access-decision.py</code></pre>
 
 <h2>What I Learned</h2>
 <p>
