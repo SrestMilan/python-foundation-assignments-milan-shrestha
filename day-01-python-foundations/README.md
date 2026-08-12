@@ -71,41 +71,5 @@ use the <code>and</code> operator for multiple conditions, and apply conditional
 statements to determine the correct result.
 </p>
 
-<h2>Files</h2>
-<table border="1" cellpadding="6" cellspacing="0">
-  <thead>
-    <tr>
-      <th>File</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>exercise-01-sales-summary.py</td>
-      <td>Calculates sales, discount, and final sales</td>
-    </tr>
-    <tr>
-      <td>exercise-02-data-quality-checker.py</td>
-      <td>Checks dataset quality</td>
-    </tr>
-    <tr>
-      <td>exercise-03-file-validator.py</td>
-      <td>Validates supported file extensions</td>
-    </tr>
-    <tr>
-      <td>exercise-04-customer-cleaner.py</td>
-      <td>Cleans customer information</td>
-    </tr>
-    <tr>
-      <td>exercise-05-pipeline-health.py</td>
-      <td>Calculates failure rate and pipeline status</td>
-    </tr>
-    <tr>
-      <td>stretch-access-decision.py</td>
-      <td>Determines dataset access permission</td>
-    </tr>
-  </tbody>
-</table>
-
 </body>
 </html>
