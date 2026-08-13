@@ -248,9 +248,6 @@ cd &lt;repo-folder&gt;/day-02-loops-and-data-structures</pre>
 python3 --version</pre>
     </div>
 
-    <div class="step">
-      <div class="step-label">3. Run each exercise individually from the terminal</div>
-      <pre>python exercise-01-batch-processor.ipynb
 python exercise-02-retry-simulation.ipynb
 python exercise-03-clean-values.ipynb
 python exercise-04-sales-analysis.ipynb
@@ -261,14 +258,6 @@ python stretch-contact-book.ipynb</pre>
       <p style="color:var(--ink-dim); font-size:14px; margin-top:10px;">On some systems you may need <code>python3</code> instead of <code>python</code>.</p>
     </div>
 
-    <div class="step">
-      <div class="step-label">4. Contact Book menu options (stretch-contact-book.py)</div>
-      <div class="menu-key"><kbd>1</kbd> Add a contact</div>
-      <div class="menu-key"><kbd>2</kbd> Search</div>
-      <div class="menu-key"><kbd>3</kbd> Delete</div>
-      <div class="menu-key"><kbd>4</kbd> Display all</div>
-      <div class="menu-key"><kbd>5</kbd> Exit</div>
-    </div>
   </section>
 
   <footer>
