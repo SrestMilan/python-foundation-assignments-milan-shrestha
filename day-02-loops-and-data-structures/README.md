@@ -70,7 +70,7 @@ Work with nested dictionaries to summarize orders and add a new order
 
 <h2>What I Learned</h2>
 <p>
-I learned how to declare variables and work with different data types such as strings, integers, and floats. I learned to apply arithmetic operators for calculations and comparison operators to evaluate conditions against thresholds. I learned how logical operators like "and" combine multiple conditions for compound decision-making. I learned several string methods, including strip, lower, title, and endswith, to clean and validate text data. I learned to write conditional statements, including if-elif-else chains, to control program flow, and how a ternary expression offers a compact alternative for simpler decisions. I also learned to handle user input and output, and use membership operators like "in" and "not in" for data validation.
+I strengthened my command of Python's core iteration constructs, using for and while loops alongside break and continue for precise flow control during sequential and retry-based processing. I applied isinstance() for type validation while cleaning mixed-type datasets, and built list and dictionary comprehensions to concisely filter and transform data, replacing verbose loop-based logic. I leveraged built-in functions like sorted(), sum(), len(), and max() with lambda keys for aggregation and ranking tasks. I practiced set operations—union, intersection, and difference—to compare datasets efficiently, and iterated nested dictionaries to summarize grouped records. Finally, I implemented a menu-driven interactive contact book using safe membership checks (in) to prevent runtime exceptions on missing keys.
 </p>
 
 <h2>Challenges Faced</h2>
