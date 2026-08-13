@@ -1,3 +1,12 @@
+
+
+"""
+Exercise: Batch Processor
+Student: Milan Shrestha
+Day: 2
+"""
+
+
 import random
 
 # --- Configuration ---

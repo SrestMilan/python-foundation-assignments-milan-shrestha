@@ -1,5 +1,11 @@
 
 
+"""
+Exercise: Clean Numeric Values
+Student: Milan Shrestha
+Day: 2
+"""
+
 raw_values = [100, None, 250, "invalid", 300, None, 450]
 
 clean_value_list = []  # will hold only the values that pass the integer check
