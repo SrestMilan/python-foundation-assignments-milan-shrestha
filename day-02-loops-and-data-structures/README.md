@@ -75,8 +75,7 @@ I strengthened my command of Python's core iteration constructs, using for and w
 
 <h2>Challenges Faced</h2>
 <p>
-
-I faced some challenges while working through these exercises, particularly with converting user input strings into integers for accurate numeric comparisons. I also struggled with applying the logical "and" operator correctly to combine multiple conditions, and with structuring if-elif-else chains in the right order to avoid incorrect classifications. Cleaning inconsistently formatted text before applying string methods was tricky as well, and I found writing ternary expressions and validating file extensions with case-sensitive input took extra care to get right.
+I found it challenging to understand how key=lambda item: item[1] directed comparisons by value instead of by key. Structuring a while True loop carefully to avoid infinite loops was another hurdle, along with ensuring break only triggered on the correct exit condition. I also had to think through how to handle missing dictionary keys safely, using membership checks like if name in contacts to avoid runtime crashes. Keeping code organized and avoiding variable name clashes took some extra care as well.
 </p>
 
 </body>
