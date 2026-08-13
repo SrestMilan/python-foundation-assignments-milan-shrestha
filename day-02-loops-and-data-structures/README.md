@@ -10,43 +10,49 @@
 
 <h2>Topics Covered</h2>
 <ul>
-  <li>Variables</li>
-  <li>Data types</li>
-  <li>Arithmetic operators</li>
-  <li>Comparison operators</li>
-  <li>Logical operators</li>
-  <li>String methods</li>
-  <li>Conditional statements</li>
-  <li>Ternary expressions</li>
-  <li>User input </li>
-  <li>Data validation</li>
+  <li>for loops and range()</li>
+  <li>while loops</li>
+  <li>Break and continue</li>
+  <li>Modulo operator (%) for patterns</li>
+  <li>List comprehensions</li>
+  <li>Built in functions:sum(),len() and max()</li>
+  <li>Dictionaries: iteration, filtering, and comprehensions</li>
+  <li>Nested dictionaries</li>
 </ul>
 
 <h2>Exercises</h2>
 <ol>
   <li>
-    <strong>Sales Summary</strong><br>
-    Calculate gross sales, discount amount, and final sales amount.
+    <strong>Batch Processor</strong><br>
+     iterate value from 1-0 and check checkpoint in every 3 batches.
   </li>
   <li>
-    <strong>Data Quality Checker</strong><br>
-    Calculate the number and percentage of problematic rows and classify the dataset.
+    <strong>Retry Simulation</strong><br>
+    Simulate up to 3 retry attempts with early exit on success.
   </li>
   <li>
-    <strong>File Validator</strong><br>
-    Validate whether a file has a supported .csv, .json, or .parquet extension.
+    <strong>Clean Numeric Values</strong><br>
+    Filter a mixed list to keep only valid integers (loop + list comprehension).
   </li>
   <li>
-    <strong>Customer Record Cleaner</strong><br>
-    Clean customer information and determine whether the customer is an adult.
+    <strong>Sales List Analysis </strong><br>
+     Sort sales, filter high values, add tax, compute total and average.
   </li>
   <li>
-    <strong>Pipeline Health Status</strong><br>
-    Calculate the failure rate and determine the pipeline status based on failure rate and runtime.
+    <strong>Dataset Comparison</strong><br>
+   Use sets to find union, intersection, and differences between two datasets.
   </li>
   <li>
-    <strong>Dataset Access Decision</strong><br>
-    Determine whether a user should be granted access to a dataset based on their role, account status, and dataset restrictions.
+    <strong>Student Score Dictionary</strong><br>
+  Iterate over a dictionary, filter passing students, find top student, compute average.
+  </li>
+  <li>
+    <strong>Nested Order Summary</strong><br>
+Work with nested dictionaries to summarize orders and add a new order
+  </li>
+  <li>
+    <strong>Stretch: Contact Book Menu </strong><br>
+ Interactive contact book with add, search, delete, display, and exit options.
   </li>
 </ol>
 
