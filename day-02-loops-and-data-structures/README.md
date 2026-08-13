@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<h1>Day 1: Python Foundations</h1>
+<h1>Day 2: Python Foundations</h1>
 
 </head>
 <body>
