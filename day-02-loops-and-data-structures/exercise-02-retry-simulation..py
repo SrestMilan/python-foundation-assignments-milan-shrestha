@@ -1,7 +1,7 @@
 
 
 """
-Exercise: Batch Processor
+Exercise: Retry Simulation
 Student: Milan Shrestha
 Day: 2
 """
