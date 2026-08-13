@@ -28,31 +28,32 @@
   </li>
   <li>
     <strong>Retry Simulation</strong><br>
-    Simulate up to 3 retry attempts with early exit on success.
+    Simulated retries with a loop, tracking success and stopping early.
   </li>
   <li>
     <strong>Clean Numeric Values</strong><br>
-    Filter a mixed list to keep only valid integers (loop + list comprehension).
+    Filtered a mixed list to keep only valid integers, removing invalid types like text and empty values.
+    
   </li>
   <li>
     <strong>Sales List Analysis </strong><br>
-     Sort sales, filter high values, add tax, compute total and average.
+    Sorted, filtered, and taxed a sales list, then calculated total and average revenue across all months.
   </li>
   <li>
     <strong>Dataset Comparison</strong><br>
-   Use sets to find union, intersection, and differences between two datasets.
+  Compared two datasets to find combined, shared, and exclusive items between them using set operations.
   </li>
   <li>
     <strong>Student Score Dictionary</strong><br>
-  Iterate over a dictionary, filter passing students, find top student, compute average.
+ Filtered passing students, found the topper, and calculated the class average from a dictionary of scores.
   </li>
   <li>
     <strong>Nested Order Summary</strong><br>
-Work with nested dictionaries to summarize orders and add a new order
+Summarized nested order data by filtering completed orders, totaling revenue, counting pending ones, and adding a new order
   </li>
   <li>
     <strong>Stretch: Contact Book Menu </strong><br>
- Interactive contact book with add, search, delete, display, and exit options.
+  Interactive contact book with add, search, delete, and display options using a menu loop.
   </li>
 </ol>
 
