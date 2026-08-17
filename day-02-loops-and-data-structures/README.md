@@ -28,31 +28,32 @@
   </li>
   <li>
     <strong>Retry Simulation</strong><br>
-    Simulate up to 3 retry attempts with early exit on success.
+    Simulated retries with a loop, tracking success and stopping early.
   </li>
   <li>
     <strong>Clean Numeric Values</strong><br>
-    Filter a mixed list to keep only valid integers (loop + list comprehension).
+    Filtered a mixed list to keep only valid integers, removing invalid types like text and empty values.
+    
   </li>
   <li>
     <strong>Sales List Analysis </strong><br>
-     Sort sales, filter high values, add tax, compute total and average.
+    Sorted, filtered, and taxed a sales list, then calculated total and average revenue across all months.
   </li>
   <li>
     <strong>Dataset Comparison</strong><br>
-   Use sets to find union, intersection, and differences between two datasets.
+  Compared two datasets to find combined, shared, and exclusive items between them using set operations.
   </li>
   <li>
     <strong>Student Score Dictionary</strong><br>
-  Iterate over a dictionary, filter passing students, find top student, compute average.
+ Filtered passing students, found the topper, and calculated the class average from a dictionary of scores.
   </li>
   <li>
     <strong>Nested Order Summary</strong><br>
-Work with nested dictionaries to summarize orders and add a new order
+Summarized nested order data by filtering completed orders, totaling revenue, counting pending ones, and adding a new order
   </li>
   <li>
     <strong>Stretch: Contact Book Menu </strong><br>
- Interactive contact book with add, search, delete, display, and exit options.
+  Interactive contact book with add, search, delete, and display options using a menu loop.
   </li>
 </ol>
 
@@ -70,13 +71,12 @@ Work with nested dictionaries to summarize orders and add a new order
 
 <h2>What I Learned</h2>
 <p>
-I learned how to declare variables and work with different data types such as strings, integers, and floats. I learned to apply arithmetic operators for calculations and comparison operators to evaluate conditions against thresholds. I learned how logical operators like "and" combine multiple conditions for compound decision-making. I learned several string methods, including strip, lower, title, and endswith, to clean and validate text data. I learned to write conditional statements, including if-elif-else chains, to control program flow, and how a ternary expression offers a compact alternative for simpler decisions. I also learned to handle user input and output, and use membership operators like "in" and "not in" for data validation.
+I strengthened my command of Python's core iteration constructs, using for and while loops alongside break and continue for precise flow control during sequential and retry-based processing. I applied isinstance() for type validation while cleaning mixed-type datasets, and built list and dictionary comprehensions to concisely filter and transform data, replacing verbose loop-based logic. I leveraged built-in functions like sorted(), sum(), len(), and max() with lambda keys for aggregation and ranking tasks. I practiced set operations—union, intersection, and difference—to compare datasets efficiently, and iterated nested dictionaries to summarize grouped records. Finally, I implemented a menu-driven interactive contact book using safe membership checks (in) to prevent runtime exceptions on missing keys.
 </p>
 
 <h2>Challenges Faced</h2>
 <p>
-
-I faced some challenges while working through these exercises, particularly with converting user input strings into integers for accurate numeric comparisons. I also struggled with applying the logical "and" operator correctly to combine multiple conditions, and with structuring if-elif-else chains in the right order to avoid incorrect classifications. Cleaning inconsistently formatted text before applying string methods was tricky as well, and I found writing ternary expressions and validating file extensions with case-sensitive input took extra care to get right.
+I found it challenging to understand how key=lambda item: item[1] directed comparisons by value instead of by key. Structuring a while True loop carefully to avoid infinite loops was another hurdle, along with ensuring break only triggered on the correct exit condition. I also had to think through how to handle missing dictionary keys safely, using membership checks like if name in contacts to avoid runtime crashes. Keeping code organized and avoiding variable name clashes took some extra care as well.
 </p>
 
 </body>
