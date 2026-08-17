@@ -145,4 +145,5 @@
         <li>Numbers sorted in descending order</li>
     </ol>
     <p>
-        The solution uses Python's built-in <code>min()</code>, <code>max()</code>,
+        The solution uses Python's built-in <code>min()</code>, <code>max()</code>
+</body>
