@@ -145,5 +145,55 @@
         <li>Numbers sorted in descending order</li>
     </ol>
     <p>
-        The solution uses Python's built-in <code>min()</code>, <code>max()</code>
+        The solution uses Python's built-in <code>min()</code>, <code>max()</code>,
+        <code>sum()</code>, and <code>sorted()</code> functions.
+    </p>
+
+    <h3>Question 4 — Shared Booking Counter</h3>
+    <p>
+        Created a simple booking system using a global variable called
+        <code>total_seats_booked</code>.
+    </p>
+    <p>
+        The <code>book_seats()</code> function increases the total number of booked
+        seats, while <code>reset_bookings()</code> resets the counter to zero.
+    </p>
+    <p>Both functions demonstrate the use of the <code>global</code> keyword.</p>
+
+    <h3>Question 5 — Temperature Report Module</h3>
+    <p>Created a custom module named <code>temperature_utils.py</code>.</p>
+    <p>The module contains:</p>
+    <ul>
+        <li><code>celsius_to_fahrenheit()</code></li>
+        <li><code>fahrenheit_to_celsius()</code></li>
+        <li><code>MODULE_VERSION</code></li>
+    </ul>
+    <p>
+        The notebook also uses the <code>random</code> module to generate Celsius
+        temperatures and the <code>datetime</code> module to display the current date.
+    </p>
+
+    <h2>Files</h2>
+    <div class="file-tree">day-03/
+│
+├── functions_and_modules.ipynb
+└── temperature_utils.py</div>
+
+    <h2>Key Learning</h2>
+    <p>
+        Through these exercises, I practiced creating reusable functions, working
+        with different types of function arguments, managing variable scope,
+        returning multiple values, and creating custom Python modules.
+    </p>
+
+    <h2>Status</h2>
+    <ul class="status-list">
+        <li>Question 1 — Simple Interest Calculator</li>
+        <li>Question 2 — Class Average</li>
+        <li>Question 3 — Analyze Numbers</li>
+        <li>Question 4 — Shared Booking Counter</li>
+        <li>Question 5 — Temperature Report Module</li>
+    </ul>
+
 </body>
+</html>
