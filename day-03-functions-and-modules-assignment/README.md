@@ -22,38 +22,27 @@
 <h2>Exercises</h2>
 <ol>
   <li>
-    <strong>Batch Processor</strong><br>
-     iterate value from 1-0 and check checkpoint in every 3 batches.
+    <strong>Simple Interest Calculator</strong><br>
+     Calculated interest using default and keyword arguments, with rate and time falling back to preset  values when omitted.
   </li>
   <li>
-    <strong>Retry Simulation</strong><br>
-    Simulated retries with a loop, tracking success and stopping early.
+    <strong>Class Average using *args</strong><br>
+   Averaged any number of scores using variable-length arguments, handling the zero-scores case with exception handling.
   </li>
   <li>
-    <strong>Clean Numeric Values</strong><br>
-    Filtered a mixed list to keep only valid integers, removing invalid types like text and empty values.
+    <strong>Analyze Numbers</strong><br>
+ Found the min, max, sum, and descending sort of a number list, returning all four values at once via tuple unpacking.
     
   </li>
   <li>
-    <strong>Sales List Analysis </strong><br>
-    Sorted, filtered, and taxed a sales list, then calculated total and average revenue across all months.
+    <strong>Shared Booking Counter </strong><br>
+   Tracked a running total of booked seats across multiple function calls using a global variable, with a reset option.
   </li>
   <li>
-    <strong>Dataset Comparison</strong><br>
-  Compared two datasets to find combined, shared, and exclusive items between them using set operations.
+    <strong>Temperature Report Module</strong><br>
+  Built a custom module for Celsius-Fahrenheit conversion, then combined it with random and datetime to generate and print a randomized temperature report.
   </li>
-  <li>
-    <strong>Student Score Dictionary</strong><br>
- Filtered passing students, found the topper, and calculated the class average from a dictionary of scores.
-  </li>
-  <li>
-    <strong>Nested Order Summary</strong><br>
-Summarized nested order data by filtering completed orders, totaling revenue, counting pending ones, and adding a new order
-  </li>
-  <li>
-    <strong>Stretch: Contact Book Menu </strong><br>
-  Interactive contact book with add, search, delete, and display options using a menu loop.
-  </li>
+ 
 </ol>
 
 <h2>How to Run</h2>
