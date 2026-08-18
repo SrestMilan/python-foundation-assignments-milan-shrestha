@@ -1,88 +1,83 @@
-# Day 3 — Functions and Modules
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<h1>Day 3: Python Foundations</h1>
 
-## Overview
+</head>
+<body>
 
-This folder contains my Day 3 Python assignments focused on **Functions and Modules**.
 
-The exercises cover default arguments, `*args`, built-in functions, multiple return values, variable scope, the `global` keyword, custom modules, and Python's standard library modules.
+<h2>Topics Covered</h2>
+<ul>
+  <li>for loops and range()</li>
+  <li>while loops</li>
+  <li>Break and continue</li>
+  <li>Modulo operator (%) for patterns</li>
+  <li>List comprehensions</li>
+  <li>Built in functions:sum(),len() and max()</li>
+  <li>Dictionaries: iteration, filtering, and comprehensions</li>
+  <li>Nested dictionaries</li>
+</ul>
 
-## Topics Covered
+<h2>Exercises</h2>
+<ol>
+  <li>
+    <strong>Batch Processor</strong><br>
+     iterate value from 1-0 and check checkpoint in every 3 batches.
+  </li>
+  <li>
+    <strong>Retry Simulation</strong><br>
+    Simulated retries with a loop, tracking success and stopping early.
+  </li>
+  <li>
+    <strong>Clean Numeric Values</strong><br>
+    Filtered a mixed list to keep only valid integers, removing invalid types like text and empty values.
+    
+  </li>
+  <li>
+    <strong>Sales List Analysis </strong><br>
+    Sorted, filtered, and taxed a sales list, then calculated total and average revenue across all months.
+  </li>
+  <li>
+    <strong>Dataset Comparison</strong><br>
+  Compared two datasets to find combined, shared, and exclusive items between them using set operations.
+  </li>
+  <li>
+    <strong>Student Score Dictionary</strong><br>
+ Filtered passing students, found the topper, and calculated the class average from a dictionary of scores.
+  </li>
+  <li>
+    <strong>Nested Order Summary</strong><br>
+Summarized nested order data by filtering completed orders, totaling revenue, counting pending ones, and adding a new order
+  </li>
+  <li>
+    <strong>Stretch: Contact Book Menu </strong><br>
+  Interactive contact book with add, search, delete, and display options using a menu loop.
+  </li>
+</ol>
 
-* Functions with default arguments
-* Variable-length arguments using `*args`
-* Built-in functions: `min()`, `max()`, `sum()`, and `sorted()`
-* Multiple return values
-* Global variables and the `global` keyword
-* Creating and importing custom Python modules
-* Using the `random` module
-* Using the `datetime` module
+<h2>How to Run</h2>
+<p>Each exercise is provided as a Python file. Run an exercise using:</p>
+<p>For example:</p>
+<pre><code>python exercise-01-batch-proecessor.py</code></pre>
+<pre><code>python exercise-02-data-retry-simulation.py</code></pre>
+<pre><code>python exercise-03-clean-values.py</code></pre>
+<pre><code>python exercise-04-sales-analyis.py</code></pre>
+<pre><code>python exercise-05-dataset-comparison.py</code></pre>
+<pre><code>python exercise-06-student-scores.py</code></pre>
+<pre><code>python exercise-05-order-summary.py</code></pre>
+<pre><code>python stretch-contact-book.py</code></pre>
 
-## Exercises
+<h2>What I Learned</h2>
+<p>
+I strengthened my command of Python's core iteration constructs, using for and while loops alongside break and continue for precise flow control during sequential and retry-based processing. I applied isinstance() for type validation while cleaning mixed-type datasets, and built list and dictionary comprehensions to concisely filter and transform data, replacing verbose loop-based logic. I leveraged built-in functions like sorted(), sum(), len(), and max() with lambda keys for aggregation and ranking tasks. I practiced set operations—union, intersection, and difference—to compare datasets efficiently, and iterated nested dictionaries to summarize grouped records. Finally, I implemented a menu-driven interactive contact book using safe membership checks (in) to prevent runtime exceptions on missing keys.
+</p>
 
-### Question 1 — Simple Interest Calculator
+<h2>Challenges Faced</h2>
+<p>
+I found it challenging to understand how key=lambda item: item[1] directed comparisons by value instead of by key. Structuring a while True loop carefully to avoid infinite loops was another hurdle, along with ensuring break only triggered on the correct exit condition. I also had to think through how to handle missing dictionary keys safely, using membership checks like if name in contacts to avoid runtime crashes. Keeping code organized and avoiding variable name clashes took some extra care as well.
+</p>
 
-Created a `calculate_simple_interest()` function using default arguments for the interest rate and time.
-
-Formula:
-
-```text
-Interest = (Principal × Rate × Time) / 100
-```
-
-### Question 2 — Class Average
-
-Created a `class_average()` function using `*args` to accept any number of scores.
-
-The function calculates the average and returns `0` when no scores are provided.
-
-### Question 3 — Analyze Numbers
-
-Created an `analyze_numbers()` function that returns:
-
-1. Smallest number
-2. Largest number
-3. Sum of all numbers
-4. Numbers sorted in descending order
-
-The solution uses Python's built-in `min()`, `max()`, `sum()`, and `sorted()` functions.
-
-### Question 4 — Shared Booking Counter
-
-Created a simple booking system using a global variable called `total_seats_booked`.
-
-The `book_seats()` function increases the total number of booked seats, while `reset_bookings()` resets the counter to zero.
-
-Both functions demonstrate the use of the `global` keyword.
-
-### Question 5 — Temperature Report Module
-
-Created a custom module named `temperature_utils.py`.
-
-The module contains:
-
-* `celsius_to_fahrenheit()`
-* `fahrenheit_to_celsius()`
-* `MODULE_VERSION`
-
-The notebook also uses the `random` module to generate Celsius temperatures and the `datetime` module to display the current date.
-
-## Files
-
-```text
-day-03/
-│
-├── functions_and_modules.ipynb
-└── temperature_utils.py
-```
-
-## Key Learning
-
-Through these exercises, I practiced creating reusable functions, working with different types of function arguments, managing variable scope, returning multiple values, and creating custom Python modules.
-
-## Status
-
-* [x] Question 1 — Simple Interest Calculator
-* [x] Question 2 — Class Average
-* [x] Question 3 — Analyze Numbers
-* [x] Question 4 — Shared Booking Counter
-* [x] Question 5 — Temperature Report Module
+</body>
+</html>
