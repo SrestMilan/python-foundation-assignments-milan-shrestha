@@ -10,14 +10,13 @@
 
 <h2>Topics Covered</h2>
 <ul>
-  <li>for loops and range()</li>
-  <li>while loops</li>
-  <li>Break and continue</li>
-  <li>Modulo operator (%) for patterns</li>
-  <li>List comprehensions</li>
-  <li>Built in functions:sum(),len() and max()</li>
-  <li>Dictionaries: iteration, filtering, and comprehensions</li>
-  <li>Nested dictionaries</li>
+  <li>Functions</li>
+  <li>Modules</li></li>
+  <li>Standard library</li>
+  <li>Variable and Constants </li>
+  <li>Operators and Expression</li>
+  <li>String Formatting</li>
+  <li>Data Structures</li>
 </ul>
 
 <h2>Exercises</h2>
