@@ -59,7 +59,7 @@
 
 <h2>What I Learned</h2>
 <p>
-I strengthened my command of Python's core iteration constructs, using for and while loops alongside break and continue for precise flow control during sequential and retry-based processing. I applied isinstance() for type validation while cleaning mixed-type datasets, and built list and dictionary comprehensions to concisely filter and transform data, replacing verbose loop-based logic. I leveraged built-in functions like sorted(), sum(), len(), and max() with lambda keys for aggregation and ranking tasks. I practiced set operations—union, intersection, and difference—to compare datasets efficiently, and iterated nested dictionaries to summarize grouped records. Finally, I implemented a menu-driven interactive contact book using safe membership checks (in) to prevent runtime exceptions on missing keys.
+I faced challenges understanding when to use the global keyword versus creating local variables, and initially confused how *args collects arguments into a tuple. Handling the zero-scores edge case with ZeroDivisionError required careful thought. Creating a module and importing it correctly took some trial and error, especially ensuring file paths matched. Combining random, datetime, and my own module together while formatting output with f-strings and strftime() also took extra practice to get right.
 </p>
 
 <h2>Challenges Faced</h2>
