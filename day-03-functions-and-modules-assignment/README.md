@@ -45,18 +45,6 @@
  
 </ol>
 
-<h2>How to Run</h2>
-<p>Each exercise is provided as a Python file. Run an exercise using:</p>
-<p>For example:</p>
-<pre><code>python exercise-01-batch-proecessor.py</code></pre>
-<pre><code>python exercise-02-data-retry-simulation.py</code></pre>
-<pre><code>python exercise-03-clean-values.py</code></pre>
-<pre><code>python exercise-04-sales-analyis.py</code></pre>
-<pre><code>python exercise-05-dataset-comparison.py</code></pre>
-<pre><code>python exercise-06-student-scores.py</code></pre>
-<pre><code>python exercise-05-order-summary.py</code></pre>
-<pre><code>python stretch-contact-book.py</code></pre>
-
 <h2>What I Learned</h2>
 <p>
 I faced challenges understanding when to use the global keyword versus creating local variables, and initially confused how *args collects arguments into a tuple. Handling the zero-scores edge case with ZeroDivisionError required careful thought. Creating a module and importing it correctly took some trial and error, especially ensuring file paths matched. Combining random, datetime, and my own module together while formatting output with f-strings and strftime() also took extra practice to get right.
