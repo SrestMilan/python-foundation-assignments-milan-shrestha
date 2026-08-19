@@ -47,7 +47,7 @@
 
 <h2>What I Learned</h2>
 <p>
-I faced challenges understanding when to use the global keyword versus creating local variables, and initially confused how *args collects arguments into a tuple. Handling the zero-scores edge case with ZeroDivisionError required careful thought. Creating a module and importing it correctly took some trial and error, especially ensuring file paths matched. Combining random, datetime, and my own module together while formatting output with f-strings and strftime() also took extra practice to get right.
+I learned to define functions with default parameter values for flexible invocation, and used *args to accept variadic positional arguments, handling ZeroDivisionError via exception handling. I practiced multiple return values through tuple packing and unpacking, alongside built-in functions like min(), max(), sum(), and sorted(). I used the global keyword to modify variables outside local scope, and built a custom module, importing it with random and datetime for date formatting and randomized data generation.
 </p>
 
 <h2>Challenges Faced</h2>
