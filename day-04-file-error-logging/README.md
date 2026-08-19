@@ -10,49 +10,49 @@
 
 <h2>Topics Covered</h2>
 <ul>
-  <li>Functions</li>
-  <li>Modules</li></li>
-  <li>Standard library</li>
-  <li>Variable and Constants </li>
-  <li>Operators and Expression</li>
-  <li>String Formatting</li>
-  <li>Data Structures</li>
+  <li>File Handling (I/0)</li>
+  <li>Modules (csv,json)</li></li>
+  <li>Custom Exceptions</li>
+  <li>Exceptions Handling </li>
+  <li>Logging Module</li>
+  <li>List Comprehensions</li>
+ 
 </ul>
 
 <h2>Exercises</h2>
 <ol>
   <li>
-    <strong>Simple Interest Calculator</strong><br>
-     Calculated interest using default and keyword arguments, with rate and time falling back to preset  values when omitted.
+    <strong>Line & Word Counter</strong><br>
+     Uses file handling with context managers, reading lines via readlines(), and counting words with split() on whitespace.
   </li>
   <li>
-    <strong>Class Average using *args</strong><br>
-   Averaged any number of scores using variable-length arguments, handling the zero-scores case with exception handling.
+    <strong>Inventory Value from CSV</strong><br>
+   Reads product data from a file, converts text values to numbers, and calculates the total inventory worth.
   </li>
   <li>
-    <strong>Analyze Numbers</strong><br>
- Found the min, max, sum, and descending sort of a number list, returning all four values at once via tuple unpacking.
+    <strong>JSON Library Filter</strong><br>
+ Loads book records from a file, picks out available ones published after a given year, and saves their titles.
     
   </li>
   <li>
-    <strong>Shared Booking Counter </strong><br>
-   Tracked a running total of booked seats across multiple function calls using a global variable, with a reset option.
+    <strong>Custom Exception Handling </strong><br>
+   Checks if an age is valid, raises a clear error when it isn't, and handles that error gracefully.
   </li>
   <li>
-    <strong>Temperature Report Module</strong><br>
-  Built a custom module for Celsius-Fahrenheit conversion, then combined it with random and datetime to generate and print a randomized temperature report.
+    <strong>Order Pipeline with Logging</strong><br>
+  Reads order data, validates each row, skips and records bad entries, then saves the good ones with totals.
   </li>
  
 </ol>
 
 <h2>What I Learned</h2>
 <p>
-I faced challenges understanding when to use the global keyword versus creating local variables, and initially confused how *args collects arguments into a tuple. Handling the zero-scores edge case with ZeroDivisionError required careful thought. Creating a module and importing it correctly took some trial and error, especially ensuring file paths matched. Combining random, datetime, and my own module together while formatting output with f-strings and strftime() also took extra practice to get right.
+I learned how to handle files safely using context managers, read and parse CSV data with DictReader, and load/dump structured JSON. I practiced converting string inputs to proper numeric types, building custom exception classes, and managing errors with try/except/else/finally. I also implemented logging with FileHandler and Formatter to track successes and failures instead of using print statements, while validating data row-by-row in a real processing pipeline.
 </p>
 
 <h2>Challenges Faced</h2>
 <p>
-I found it challenging to understand how key=lambda item: item[1] directed comparisons by value instead of by key. Structuring a while True loop carefully to avoid infinite loops was another hurdle, along with ensuring break only triggered on the correct exit condition. I also had to think through how to handle missing dictionary keys safely, using membership checks like if name in contacts to avoid runtime crashes. Keeping code organized and avoiding variable name clashes took some extra care as well.
+ I struggled with remembering to assign json.load(f)'s return value to a variable instead of discarding it, which caused a NameError. I found it tricky to correctly convert CSV string values without breaking on invalid rows like "not_a_number". Setting up logging correctly, especially avoiding duplicate handlers on re-runs, took some trial and error. I also had to be careful catching specific exceptions like InvalidAgeError versus generic ValueError without mixing up their logic.
 </p>
 
 </body>
